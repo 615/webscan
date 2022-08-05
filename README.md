@@ -10,3 +10,10 @@ python3  webscan.py  -f  xxx.txt
 {"url":"http://192.168.1.1:8000/WebGoat/SqlInjection/attack5","method":"POST","headers":{"Accept":"*/*","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","Cookie":"JSESSIONID=NGwE2ct2wsIHi6eac-Paw0lP82O7PGLZYL1iXuSz","Referer":"http://192.168.1.1:8000/WebGoat/start.mvc","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/102.0.5002.0 Safari/537.36","X-Requested-With":"XMLHttpRequest"},"cookies":[{"name":"JSESSIONID","value":"NGwE2ct2wsIHi6eac-Paw0lP82O7PGLZYL1iXuSz","domain":"192.168.1.1","path":"/WebGoat","expires":-1,"size":50,"httpOnly":false,"secure":false,"session":true,"sameParty":false,"sourceScheme":"NonSecure","sourcePort":8080}],"body":"query=test"}
 
 如果要使用chromium 进行dom-xss检测，需要在config.py 中配置浏览器得路径。
+
+![image](https://user-images.githubusercontent.com/14980632/183051079-641bb701-8592-43d3-9c4c-4b9d640592e1.png)
+
+
+参考w13scan 进行修改。
+note:
+https://github.com/w-digital-scanner/w13scan
